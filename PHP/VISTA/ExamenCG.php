@@ -10,96 +10,85 @@
     <div class="container col-10 card card-primary card-outline elevation-2">
         <div id='title'>
             <hr  width="100%" size="5" noshade>  
-            <h2>Nombre del examen aquí</h2>
+            <h2>EXAMEN DE ADMISIÓN UNM 2022</h2> 
+            <h2>PRUEBA TIPO DE CULTURA GENERAL</h2>
             <hr  width="100%" size="5" noshade>  
         </div>
+
+        <h3>Lee atentamente las preguntas y marca la alternativa que corresponde.</h3>
+
         <form>
             <div class="form-group">
-                <div class='pregunta' id='pregunta1'> <h3><label>pregunta 1: solo una respuesta correcta</label></h3></div>
+                <div class='pregunta' id='pregunta1'> <h3><label>1.	¿El primer ser humano en el espacio fue?</label></h3></div>
                 <div class='container'>
                     <div class='row' >                       
                         <div class='col-1' ></div>
                         <div class="form-check  col">
-                            <input type="radio" class="respuesta1 form-check-input" id="0101" name="materialExampleRadios">
-                            <label class="respuesta1 form-check-label" for="0101">Respuesta 1</label>
+                            <input type="radio" class="respuesta1 form-check-input" value="A" id="0101" name="materialExampleRadios">
+                            <label class="respuesta1 form-check-label" for="0101">Yuri Gagarin</label>
                         </div>
                         <div class='col-1' ></div>
                     </div>
                     <div class='row'>
                         <div class='col-1' ></div>
                         <div class="form-check col">
-                            <input type="radio" class="respuesta1 form-check-input" id="0102" name="materialExampleRadios" >
-                            <label class="respuesta1 form-check-label" for="0102">Respuesta 2</label>
+                            <input type="radio" class="respuesta1 form-check-input" value="B" id="0102" name="materialExampleRadios" >
+                            <label class="respuesta1 form-check-label" for="0102">Neil Armstrong</label>
                         </div> 
                         <div class='col-1' ></div>
                     </div>
                     <div class='row'>
                         <div class='col-1' ></div>
                         <div class="form-check col">
-                            <input type="radio" class="respuesta1 form-check-input" id="0103" name="materialExampleRadios" >
-                            <label class="respuesta1 form-check-label" for="0103">Respuesta 3</label>
+                            <input type="radio" class="respuesta1 form-check-input" value="C" id="0103" name="materialExampleRadios" >
+                            <label class="respuesta1 form-check-label" for="0103">Alan Shepard</label>
                         </div> 
                         <div class='col-1' ></div>
                     </div>
                     <div class='row'>
                         <div class='col-1' ></div>
                         <div class="form-check col">
-                            <input type="radio" class="respuesta1 form-check-input" id="0104" name="materialExampleRadios" >
-                            <label class="respuesta1 form-check-label" for="0104">Respuesta 4</label>
+                            <input type="radio" class="respuesta1 form-check-input" value="D" id="0104" name="materialExampleRadios" >
+                            <label class="respuesta1 form-check-label" for="0104">Valentina Tereshkova</label>
                         </div> 
                         <div class='col-1' ></div>
                     </div>
-                    <div class='row'>
-                        <div class='col-1' ></div>
-                        <div class="form-check col">
-                            <input type="radio" class="respuesta1 form-check-input" id="0105" name="materialExampleRadios" >
-                            <label class="respuesta1 form-check-label" for="0105">Respuesta 5</label>
-                        </div> 
-                        <div class='col-1' ></div>
-                    </div>
+                   
                 </div>
             </div>
             <!----------------->
             <div class="form-group">
-                <div class='pregunta' id='pregunta2'> <h3><label>pregunta 2: mas de una respuesta correcta</label></h3></div>
+                <div class='pregunta' id='pregunta2'> <h3><label>2.	¿Ricardo Palma es famoso por cuál género literario?</label></h3></div>
                 <div class='container'>
                     <div class='row'>                       
                         <div class='col-1' ></div>
                         <div class="form-check col">
-                            <input type="checkbox" class="respuesta2 form-check-input" id="0201" value="1" name="respuesta2">
-                            <label class="form-check-label" for="0201">Respuesta 1</label>
+                            <input type="checkbox" class="respuesta2 form-check-input" value="A" id="0201" value="1" name="respuesta2">
+                            <label class="form-check-label" for="0201">Rimas</label>
                         </div>
                         <div class='col-1' ></div>
                     </div>
                     <div class='row'>
                         <div class='col-1' ></div>
                         <div class="form-check col">
-                            <input type="checkbox" class="respuesta2 form-check-input" id="0202" value="2" name="respuesta2" >
-                            <label class="form-check-label " for="0202">Respuesta 2</label>
+                            <input type="checkbox" class="respuesta2 form-check-input" value="B" id="0202" value="2" name="respuesta2" >
+                            <label class="form-check-label " for="0202">Tradiciones</label>
                         </div> 
                         <div class='col-1' ></div>
                     </div>
                     <div class='row'>
                         <div class='col-1' ></div>
                         <div class="form-check col">
-                            <input type="checkbox" class="form-check-input respuesta2" id="0203" value="3" name="respuesta2" >
-                            <label class="form-check-label" for="0203">Respuesta 3</label>
+                            <input type="checkbox" class="form-check-input respuesta2" value="C" id="0203" value="3" name="respuesta2" >
+                            <label class="form-check-label" for="0203">Cuentos</label>
                         </div> 
                         <div class='col-1' ></div>
                     </div>
                     <div class='row'>
                         <div class='col-1' ></div>
                         <div class="form-check col">
-                            <input type="checkbox" class="form-check-input respuesta2" id="0204" value="4" name="respuesta2" >
-                            <label class="form-check-label" for="0204">Respuesta 4</label>
-                        </div> 
-                        <div class='col-1' ></div>
-                    </div>
-                    <div class='row'>
-                        <div class='col-1' ></div>
-                        <div class="form-check col">
-                            <input type="checkbox" class="form-check-input respuesta2" id="0205" value="5" name="respuesta2" >
-                            <label class="form-check-label" for="0205">Respuesta 5</label>
+                            <input type="checkbox" class="form-check-input respuesta2" value="D" id="0204" value="4" name="respuesta2" >
+                            <label class="form-check-label" for="0204">Ensayos</label>
                         </div> 
                         <div class='col-1' ></div>
                     </div>
@@ -107,33 +96,41 @@
             </div>
             <!---------------->
             <div class="form-group">
-                <div class='pregunta'  id='pregunta3'> <h3><label>pregunta 3: Respuesta con audio</label></h3></div>
+                <div class='pregunta'  id='pregunta3'> <h3><label>3. ¿Cuando hablamos del Día D nos referimos a?</label></h3></div>
                 <div class='container'>
                     <div class='row'>
                         <div class='col'>
                             <div class='row'>                       
                                 <div class='col-1' ></div>
                                 <div class="form-check col">
-                                    <input type="radio" class="respuesta3 form-check-input" id="0401" name="materialExamplecheckboxs">
-                                    <label class="respuesta3 form-check-label" for="0401">Respuesta 1</label>
+                                    <input type="radio" class="respuesta3 form-check-input" value="A" id="0301" name="materialExamplecheckboxs">
+                                    <label class="respuesta3 form-check-label" for="0301">El ataque a Pearl Harbor</label>
                                 </div>
                             </div>
                             <div class='row'>
                                 <div class='col-1' ></div>
                                 <div class="form-check col">
-                                    <input type="radio" class="respuesta3 form-check-input" id="0402" name="materialExamplecheckboxs" >
-                                    <label class="respuesta3 form-check-label" for="0402">Respuesta 2</label>
+                                    <input type="radio" class="respuesta3 form-check-input" value="B" id="0302" name="materialExamplecheckboxs" >
+                                    <label class="respuesta3 form-check-label" for="0302">El desembarco en Normandía</label>
                                 </div> 
                             </div>
                             <div class='row'>
                                 <div class='col-1' ></div>
                                 <div class="form-check col">
-                                    <input type="radio" class="respuesta3 form-check-input" id="0403" name="materialExamplecheckboxs" >
-                                    <label class="respuesta3 form-check-label" for="0403">Respuesta 3</label>
+                                    <input type="radio" class="respuesta3 form-check-input" value="C" id="0303" name="materialExamplecheckboxs" >
+                                    <label class="respuesta3 form-check-label" for="0303">El lanzamiento de la primera bomba atómica</label>
                                 </div> 
                             </div>
+                            <div class='row'>
+                                <div class='col-1' ></div>
+                                <div class="form-check col">
+                                    <input type="radio" class="respuesta3 form-check-input" value="D" id="0304" name="materialExamplecheckboxs" >
+                                    <label class="respuesta3 form-check-label" for="0304">La muerte de Hitler</label>
+                                </div> 
+                            </div>
+
                         </div>
-                        <div class='centrar-content col'>
+                        <!--<div class='centrar-content col'>
                             <audio controls>
                                 <source src="/MOCUNM/AUDIO/audio_prueba.mp3" type="audio/ogg">
                                 <source src="/MOCUNM/AUDIO/audio_prueba.mp3" type="audio/mpeg">
@@ -144,12 +141,51 @@
                                         <a href="mi-archivo-de-audio.mp3">Descárgate aquí mi archivo de audio</a>
                                 </object>
                             </audio>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
-            <!------------------->
+
             <div class="form-group">
+                <div class='pregunta' id='pregunta4'> <h3><label>4. ¿Qué pintor pasó por los periodos azul y rosa?</label></h3></div>
+                <div class='container'>
+                    <div class='row'>                       
+                        <div class='col-1' ></div>
+                        <div class="form-check col">
+                            <input type="checkbox" class="respuesta4 form-check-input" value="A" id="0401" value="1" name="respuesta4">
+                            <label class="form-check-label" for="0401">Gustav Klimt</label>
+                        </div>
+                        <div class='col-1' ></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-1' ></div>
+                        <div class="form-check col">
+                            <input type="checkbox" class="respuesta4 form-check-input" value="B" id="0402" value="2" name="respuesta4" >
+                            <label class="form-check-label " for="0402">Claude Monet</label>
+                        </div> 
+                        <div class='col-1' ></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-1' ></div>
+                        <div class="form-check col">
+                            <input type="checkbox" class="form-check-input respuesta4" value="C" id="0403" value="3" name="respuesta4" >
+                            <label class="form-check-label" for="0403">Pablo Picasso</label>
+                        </div> 
+                        <div class='col-1' ></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-1' ></div>
+                        <div class="form-check col">
+                            <input type="checkbox" class="form-check-input respuesta4" value="D" id="0404" value="4" name="respuesta4" >
+                            <label class="form-check-label" for="0404">Pierre-Auguste Renoir</label>
+                        </div> 
+                        <div class='col-1' ></div>
+                    </div>
+                </div>
+            </div>
+
+            <!------------------->
+            <!--<div class="form-group">
                 <div class='pregunta' id='pregunta4'> <h3><label>pregunta 4: Respuesta en texto</label></h3></div>
                 <div class='container'>
                     <div class='centrar-content row'>
@@ -160,9 +196,9 @@
                         <div class='col-1'></div>
                     </div>
                 </div>
-            </div>
+            </div>-->
             <!----------------->
-            <div class="form-group">
+            <!--<div class="form-group">
                 <div class='pregunta' id='pregunta5'> <h3><label>pregunta 5: Verdadero y Falso</label></h3></div>
                 <div class='container'>
                     <div class='row'>                       
@@ -243,7 +279,7 @@
                         <div class='col-1' ></div>
                     </div>
                 </div>
-            </div>
+            </div>-->
             <!------------------------->
             
             <div class='centrar-content'>
