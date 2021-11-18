@@ -28,6 +28,9 @@
                         <option value="3">Una sola respuesta con audio</option>
                         <option value="4">Texto de respuesta</option>
                         <option value="5">Verdadero y falso</option>
+                        <option value="6">Una sola respuesta con audio e imagenes</option>
+                        <option value="7">Una sola respuesta con imagen</option>
+                        <option value="8">Pregunta con texto</option>
                     </select>
                 </div>
                 <div class='col-2' ></div>
